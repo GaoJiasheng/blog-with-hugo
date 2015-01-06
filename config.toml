@@ -1,3 +1,4 @@
 baseurl = "http://yourSiteHere"
 languageCode = "utf-8"
+theme = "hugo-uno"
 title = "升升的博客"
