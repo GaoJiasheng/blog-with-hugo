@@ -2,6 +2,7 @@
         <i class="fa fa-bars btn-mobile-menu__icon"></i>
         <i class="fa fa-times btn-mobile-close__icon hidden"></i>
     </span>
+
 <header class="{{ if .IsNode }} {{ if eq .Url " /post/ " }} panel-cover panel-cover--collapsed {{ else }}panel-cover {{ end }}{{ else }}panel-cover panel-cover--collapsed{{ end }}" {{ if .Site.Params.cover }} style="background-image: url({{ .Site.Params.cover }})" {{ end }}>
     <div class="panel-main">
         <div class="panel-main__inner panel-inverted">
@@ -15,14 +16,19 @@
                 <hr class="panel-cover__divider panel-cover__divider--secondary" />
                 <div class="navigation-wrapper">
                     <nav class="cover-navigation cover-navigation--primary">
+                        <center>
                         <ul class="navigation">
-                            <li class="navigation__item"><a href="/#blog" title="link to {{ .Site.Title }} blog" class="blog-button">Blog</a> </li>
-                            </br> {{ if .Site.Params.cv }}
-                            <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="link to my CV " class="blog-button">CV</a> </li>
+                            <li class="navigation__item"><a href="/#blog" title="升升的博客" class="blog-button">笔记本</a> </li>
+                            <br/>{{ if .Site.Params.cv }}
+                            <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="个人资料" class="blog-button">了解我</a> </li>
                             </br> {{ end }} </ul>
+                        </center>
+                        </br>
                     </nav> {{ partial "social.html" . }} </div>
             </div>
         </div>
         <div class="panel-cover--overlay"></div>
     </div>
+
 </header>
+
