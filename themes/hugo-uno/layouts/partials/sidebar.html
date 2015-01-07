@@ -14,17 +14,15 @@
                 <hr class="panel-cover__divider" />
                 <p class="panel-cover__description"> {{ if .Site.Params.description }} {{ .Site.Params.description }} {{ else }} This site is built using <a href="http://gohugo.io">hugo</a> and the theme is built by <a href="http://fredrikloch.me">Fredrik</a> if you enjoy it, it is available at <a href="https://github.com/SenjinDarashiva/hugo-uno">github</a> {{end}} </p>
                 <hr class="panel-cover__divider panel-cover__divider--secondary" />
-                <div class="navigation-wrapper">
-                    <nav class="cover-navigation cover-navigation--primary">
+                    <div class="navigation-wrapper">
                         <center>
-                        <ul class="navigation">
-                            <li class="navigation__item"><a href="/#blog" title="升升的博客" class="blog-button">笔记本</a> </li>
-                            <br/>{{ if .Site.Params.cv }}
-                            <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="个人资料" class="blog-button">了解我</a> </li>
-                            </br> {{ end }} </ul>
-                        </center>
-                        </br>
-                    </nav> {{ partial "social.html" . }} </div>
+                        <nav class="cover-navigation cover-navigation--primary">
+                                <ul class="navigation">
+                                    <li class="navigation__item"><a href="/#blog" title="升升的博客" class="blog-button">打开笔记本</a> </li>
+                                </ul>
+                            </br>
+                        </nav></center> {{ partial "social.html" . }} 
+                    </div>
             </div>
         </div>
         <div class="panel-cover--overlay"></div>

@@ -1,4 +1,4 @@
-baseurl = "http://yourSiteHere"
+baseurl = "http://10.237.111.11:1313"
 languageCode = "utf-8"
 theme = "hugo-uno"
 title = "升升的笔记本"
