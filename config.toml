@@ -4,7 +4,8 @@ theme = "hugo-uno"
 title = "升升的笔记本"
 
 [params]
-description = "路漫漫其修远兮, 吾将上下而求索"
+description = "路漫漫其修远兮"
+description2 = "吾将上下而求索"
 #logo = "/img/naruto.jpg"
 cover = "/img/purse.jpg"
 #cv = "/mycv"

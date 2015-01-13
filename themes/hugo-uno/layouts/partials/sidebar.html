@@ -11,9 +11,12 @@
                 <h1 class="panel-cover__title panel-title">
                     <a href="{{ .Site.BaseUrl }}" title="link to homepage for {{ .Site.Title }}">{{ .Site.Title }}</a>
                 </h1>
+                <br/>
                 <hr class="panel-cover__divider" />
-                <p class="panel-cover__description"> {{ if .Site.Params.description }} {{ .Site.Params.description }} {{ else }} This site is built using <a href="http://gohugo.io">hugo</a> and the theme is built by <a href="http://fredrikloch.me">Fredrik</a> if you enjoy it, it is available at <a href="https://github.com/SenjinDarashiva/hugo-uno">github</a> {{end}} </p>
+                <p class="panel-cover__description"> {{ if .Site.Params.description }} {{ .Site.Params.description }}<br/>{{ .Site.Params.description2 }}{{ else }} This site is built using <a href="http://gohugo.io">hugo</a> and the theme is built by <a href="http://fredrikloch.me">Fredrik</a> if you enjoy it, it is available at <a href="https://github.com/SenjinDarashiva/hugo-uno">github</a> {{end}} </p>
+
                 <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                <br/><br/>
                     <div class="navigation-wrapper">
                         <center>
                         <nav class="cover-navigation cover-navigation--primary">
