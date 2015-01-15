@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
   $('body').removeClass('no-js');
-
+  if ($('.panel-cover').hasClass('panel-cover--collapsed')){
+    $(".blog-button").html("目录")
+  }
   $('a.blog-button').click(function() {
     $(this).html("目录")
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return;
@@ -11,7 +13,7 @@ $(document).ready(function() {
       $('.content-wrapper').addClass('animated slideInRight');
     } else {
       $('.panel-cover').css('max-width',currentWidth);
-      $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function() {} );
+      $('.panel-cover').animate({'max-width': '350px', 'width': '30%'}, 400, swing = 'swing', function() {} );
     }
   });
 
