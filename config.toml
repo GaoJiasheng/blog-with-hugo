@@ -1,8 +1,7 @@
-
 languageCode = "utf-8"
 theme = "hugo-uno"
 title = "升升的NotaBooka"
-base_url = "http://10.237.111.11:1313"
+baseurl = "http://localhost:1313"
 
 [params]
 description = "路漫漫其修远兮"
@@ -10,3 +9,5 @@ description2 = "吾将上下而求索"
 logo = "/img/naruto.jpg"
 cover = "/img/purse.jpg"
 cv = "/mycv"
+email = "gaojiasheng.him@foxmail.com"
+github = "gaojiasheng"

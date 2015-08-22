@@ -18,15 +18,41 @@
 
                 <hr class="panel-cover__divider panel-cover__divider--secondary" />
                 <br/><br/>
-                    <div class="navigation-wrapper">
-                        <center>
-                        <nav class="cover-navigation cover-navigation--primary">
-                                <ul class="navigation">
-                                    <li class="navigation__item"><a href="/#blog" title="升升的博客" class="blog-button">打开笔记本</a> </li>
-                                </ul>
-                            </br>
-                        </nav></center> {{ partial "social.html" . }} 
-                    </div>
+                <div class="navigation-wrapper">
+                    <center>
+                    <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                                <li class="navigation__item"><a href="/#blog" title="升升的博客" class="blog-button">目录</a> </li>
+                                <!--<li class="navigation__item"><a href="/#blog" title="升升的博客" class="blog-button">打开笔记本</a> </li>-->
+                            </ul>
+                        </br>
+                        </nav>
+                    </center> 
+                    <style type="text/css">
+                        ul.catlist { list-style: none; margin: 0; padding: 0; }
+                        ul.catlist li { display: inline; }
+                        ul.catlist li:after { content: "·"; }
+                        ul.catlist li:last-child:after { content: ""; }
+                        ul.catlist {
+                              font-family: "PT Sans", Helvetica, Arial, sans-serif;
+                              font-size:16px;
+                              margin-top:80px
+                          }
+                        .navlink {
+                              font-family: Georgia, Times, 'Times New Roman', serif;
+                          }
+                        .navlink {
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                        }
+                    </style>
+                </div>
+                <ul class="catlist">
+                    <li><a href="/catalogue"><span class="navlink">分类</span></a></li>
+                    <li><a href="/mycv"><span class="navlink">关于我</span></a></li>
+                </ul>
+                {{ partial "social.html" . }} 
             </div>
         </div>
         <div class="panel-cover--overlay"></div>

@@ -47,6 +47,11 @@ body {
   body:after {
     clear: both; }
 
+ul.catlist { list-style: none; margin: 0; padding: 0; }
+ul.catlist li { display: inline; }
+ul.catlist li:after { content: "ãƒ»"; }
+ul.catlist li:last-child:after { content: ""; }
+
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
