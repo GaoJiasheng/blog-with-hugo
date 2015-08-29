@@ -6,6 +6,7 @@
         <div class="post">
           <h1>{{ .Title }}</h1>
           <span class="post-date">{{ .Date.Format "2006-1-2,  Mon" }}</span>
+          <br></br>
           {{ .Content }}
         </div>
         {{ partial "comments.html" .}}
