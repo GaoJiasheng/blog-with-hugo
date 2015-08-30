@@ -1,7 +1,7 @@
+baseurl = "http://blog.gaojiasheng.com/"
 languageCode = "utf-8"
 theme = "hugo-uno"
 title = "升升的NotaBooka"
-baseURL = "http://blog.gaojiasheng.com"
 
 [params]
 description = "路漫漫其修远兮"
