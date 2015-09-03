@@ -5,13 +5,12 @@
             <div class="content-wrapper__inner">
                 <section id="main">
                     <div>
-                        {{ range first 10 .Data.Pages }}
+                        {{ range first 100 .Data.Pages }}
                             {{ if eq .Type  "post" }}
                                 {{ .Render "summary"}}
                             {{ end }}
                         {{ end }}
                     </div>
-                    </br>
                     <!--
                     <h4>
                         <a href="/post/">Archive</a>
