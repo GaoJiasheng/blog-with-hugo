@@ -4,10 +4,10 @@
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
         <div class="post">
-          <h1>{{ .Title }}</h1>
+            <h1><font face="KaiTi">{{ .Title }}</font></h1>
           <span class="post-date">{{ .Date.Format "2006-1-2,  Mon" }}</span>
           <br></br>
-          {{ .Content }}
+          <font face="STFangsong">{{ .Content }}</font>
         </div>
         {{ partial "comments.html" .}}
       </div>
