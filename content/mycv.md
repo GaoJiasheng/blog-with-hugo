@@ -18,8 +18,8 @@ title = "关于我"
 
 #### **社交账号**:
 
-- GitHub : [GaoJiasheng](http://github.com/gaojiasheng)
+- GitHub : <u>[GaoJiasheng](http://github.com/gaojiasheng)</u>
 - QQ : 835875804
 - Mail : gaojiasheng.him@foxmail.com
 - 微信 : linux-gao
-- 微博 : [@升升脂肪酱] (http://weibo.com/2005084211/profile?topnav=1&wvr=6)
+- 微博 : <u>[@升升脂肪酱] (http://weibo.com/2005084211/profile?topnav=1&wvr=6)</u>

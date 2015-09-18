@@ -1,12 +1,12 @@
 <article class="post">
 <header>
 <!--<h2><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a> </h2>-->
-<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a> </h2>
-<div class="post-meta">{{ .Date.Format "2006-1-2,  Mon" }} - Read in {{ .ReadingTime }} Min </div>
+<!--<h3><font face="楷体_GB2312"><a href="{{ .RelPermalink }}">{{ .Title }}</a> </font></h3>-->
+<h3><font face="STXinwei"><a href="{{ .RelPermalink }}">{{ .Title }}</a> </font></h3>
+<div class="post-meta">{{ .Date.Format "2006-1-2,  Mon" }} </div>
 </header>
-{{ .Description }}
+<p><font face="STFangsong">{{ .Description }}</font></p>
 <footer>
-<!--<a href='{{ .RelPermalink }}'><nobr>Read more →</nobr></a>-->
+ <!--<a href='{{ .RelPermalink }}'><nobr>Read more →</nobr></a>-->
 </footer>
-<br/>
 </article>

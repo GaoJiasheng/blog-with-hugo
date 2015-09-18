@@ -10,11 +10,11 @@
                 <a href="/" title="link to homepage for {{ .Site.Title }}"> <img src="{{ .Site.Params.logo }}" width="100" alt="{{ .Site.Title }} logo" class="panel-cover__logo logo" /> </a> {{ end }}
                 <br/><br/><br/>
                 <h1 class="panel-cover__title panel-title">
-                    <a href="/" title="link to homepage for {{ .Site.Title }}">{{ .Site.Title }}</a>
+                    <font face="STXinwei"><a href="/" title="link to homepage for {{ .Site.Title }}">{{ .Site.Title }}</a></font>
                 </h1>
                 <br/>
                 <hr class="panel-cover__divider" />
-                <p class="panel-cover__description"> {{ if .Site.Params.description }} {{ .Site.Params.description }}<br/>{{ .Site.Params.description2 }}{{ else }} This site is built using <a href="http://gohugo.io">hugo</a> and the theme is built by <a href="http://fredrikloch.me">Fredrik</a> if you enjoy it, it is available at <a href="https://github.com/SenjinDarashiva/hugo-uno">github</a> {{end}} </p>
+                <font face="KaiTi"><p class="panel-cover__description"> {{ if .Site.Params.description }} {{ .Site.Params.description }}<br/>{{ .Site.Params.description2 }}{{ else }} This site is built using <a href="http://gohugo.io">hugo</a> and the theme is built by <a href="http://fredrikloch.me">Fredrik</a> if you enjoy it, it is available at <a href="https://github.com/SenjinDarashiva/hugo-uno">github</a> {{end}} </p></font>
 
                 <hr class="panel-cover__divider panel-cover__divider--secondary" />
                 <br/><br/>
@@ -22,7 +22,7 @@
                     <center>
                     <nav class="cover-navigation cover-navigation--primary">
                             <ul class="navigation">
-                                <li class="navigation__item"><a href="/#blog" title="升升的博客" class="blog-button">目录</a> </li>
+                                <li class="navigation__item"><font face="KaiTi"><a href="/#blog" title="升升的博客" class="blog-button">目录</a></font></li>
                                 <!--<li class="navigation__item"><a href="/#blog" title="升升的博客" class="blog-button">打开笔记本</a> </li>-->
                             </ul>
                         </br>
@@ -49,8 +49,8 @@
                     </style>
                 </div>
                 <ul class="catlist">
-                    <li><a href="/catalogue"><span class="navlink">分类</span></a></li>
-                    <li><a href="/mycv"><span class="navlink">关于我</span></a></li>
+                    <li><font face="KaiTi"><a href="/catalogue"><span class="navlink">分类</span></a></font></li>
+                    <li><font face="KaiTi"><a href="/mycv"><span class="navlink">关于我</span></a></font></li>
                 </ul>
                 {{ partial "social.html" . }} 
             </div>
