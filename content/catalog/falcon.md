@@ -7,4 +7,4 @@ menu = "main"
 title = "OpenFalcon学习笔记"
 +++
 
-#### [Test](/mycv)
+#### **[开源项目agent-updater源码阅读](/post/other/开源项目agent-updater源码阅读)**   ------ *2015-9-28*
