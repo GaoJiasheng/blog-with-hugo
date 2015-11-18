@@ -7,4 +7,4 @@ menu = "main"
 title = "Python大法"
 +++
 
-#### **[开源项目agent-updater源码阅读](/post/other/开源项目agent-updater源码阅读)**   ------ *2015-11-18*
+#### **[深度学习Python装饰器](/post/python/深度学习Python装饰器)**   ------ *2015-11-18*
