@@ -13,7 +13,7 @@ $(document).ready(function() {
       $('.content-wrapper').addClass('animated slideInRight');
     } else {
       $('.panel-cover').css('max-width',currentWidth);
-      $('.panel-cover').animate({'max-width': '350px', 'width': '30%'}, 400, swing = 'swing', function() {} );
+      $('.panel-cover').animate({'max-width': '420px', 'width': '30%'}, 400, swing = 'swing', function() {} );
     }
   });
 
