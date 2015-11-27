@@ -4,7 +4,7 @@ draft = false
 title = "深度学习Python装饰器"
 Categories = ["Python大法"]
 description = "Python装饰器是个很好玩的东西，让我们一步一步来了解这个东西..."
-menu = "other-mountain"
+menu = "python"
 +++
 
 Python装饰器是个很好玩的东西，我们一步一步来了解这个东西。
