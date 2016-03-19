@@ -2,7 +2,7 @@ all: build
 
 build:
 	rm -rf ./public/*
-	hugo -d ./public/
+	hugo -d ./public/ --buildDrafts
 
 install:
 	rm -rf ../blog-online/*
