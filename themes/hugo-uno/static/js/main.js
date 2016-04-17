@@ -36,6 +36,9 @@ $(document).ready(function() {
     $('.btn-mobile-menu__icon').toggleClass('hidden');
     $('.btn-mobile-close__icon').toggleClass('hidden');
   });
-  
+
+  hljs.initHighlightingOnLoad();
+
   if ($('.panel-cover').hasClass('panel-cover--collapsed')) $("main_button").html("目录");
 });
+
