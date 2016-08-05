@@ -4,7 +4,7 @@ draft = false
 title = "Golang的Interface——更强大的面向对象"
 Categories = ["Golang心得"]
 description = "Go语言中，是没有类这个概念的。但实际上，抽象却是无处不在的。"
-menu = "golang"
+menu = "develop"
 +++
  
 ## interface是“类的类”
@@ -120,6 +120,5 @@ interface可以存很多的类型，但是当我们想要知道它存的到底�
 太简单了，就不仔细讲了。
 
 interface其实很简单，也很好玩，是很tricky的一个特性。
-
 
 
