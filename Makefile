@@ -7,3 +7,4 @@ build:
 install:
 	rm -rf ../blog-online/*
 	cp -rf ./public/* ../blog-online/
+	cp ./scripts/blog-online-Makefile ../blog-online/Makefile
