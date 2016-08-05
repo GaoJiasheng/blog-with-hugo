@@ -1,7 +1,7 @@
 +++
 date = "2016-08-03T9:30:00+08:00"
 draft = false
-title = "Python伪终端编程——实时、全量抓取终端输出流.md"
+title = "Python伪终端编程——实时、全量抓取终端输出流"
 Categories = ["devlop"]
 description = "之前在上家公司，堡垒机的审计，是我用C语言开发的。C语言对于流的处理非常的得心应手..."
 menu = "develop"
