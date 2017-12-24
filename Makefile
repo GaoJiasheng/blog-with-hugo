@@ -1,5 +1,8 @@
 all: build
 
+run:
+	hugo server --buildDrafts
+
 build:
 	rm -rf ./public/*
 	hugo -d ./public/ --buildDrafts
