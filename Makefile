@@ -1,7 +1,7 @@
 all: build
 
 run:
-	hugo server --buildDrafts
+	hugo server --buildDrafts --port=1313 --bind=0.0.0.0
 
 build:
 	rm -rf ./public/*
