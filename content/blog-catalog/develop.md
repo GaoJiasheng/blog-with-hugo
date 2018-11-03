@@ -12,4 +12,3 @@ title = "开发随笔"
 #### **[python的迭代器与生成器](/post/develop/python的迭代器与生成器)**   ------ *2015-11-27*
 #### **[深度学习python装饰器](/post/develop/深度学习python装饰器)**   ------ *2015-11-18*
 #### **[golang的interface——更强大的面向对象](/post/develop/golang的interface更强大的面向对象)**   ------ *2015-11-18*
-.md
