@@ -1,0 +1,80 @@
+<div
+  class="{{ with .Site.Params.doNotLoadAnimations }}
+    .
+
+  {{ else }}
+    animated fadeInDown
+
+  {{ end }}"
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      {{ $url := .RelPermalink }}
+      {{ range .Site.Menus.main }}
+        {{ $active := eq $url .URL }}
+        <li class="nav__list-item">
+          <a
+            {{ if $active }}
+              class="nav__link--active"
+
+            {{ end }}
+            href="{{ .URL }}"
+            {{ if strings.HasPrefix .URL "http" }}
+              target="_blank" rel="noopener noreferrer"
+
+            {{ end }}
+            title="{{ .Title }}"
+            >{{ .Name }}</a
+          >
+        </li>
+
+      {{ end }}
+    </ul>
+    <ul class="nav__list nav__list--end">
+      {{ if and .IsTranslated .Site.IsMultiLingual }}
+        <li class="nav__list-item">
+          <div class="languageswitch">
+            <input class="languageswitch__picker" type="checkbox" id="languagepicker" hidden />
+            <label class="languageswitch__label" for="languagepicker"
+              >{{ .Site.Language.LanguageName }} <i class="fa fa-angle-down" aria-hidden="true"></i
+            ></label>
+            <div class="languageswitch__triangle"></div>
+            <ul class="languageswitch__list">
+              {{ range $.Translations }}
+                <li class="languageswitch__list-item">
+                  <a href="{{ .RelPermalink }}" title="{{ .Language.LanguageName }}"
+                    ><span
+                      {{ if eq . $.Site.Language }}
+                        class="active"
+
+                      {{ end }}
+                      aria-label="{{ i18n "ariaLanguage" }}{{ .Language.LanguageName }}"
+                      >{{ .Language.LanguageName }}</span
+                    >
+                  </a>
+                </li>
+
+              {{ end }}
+            </ul>
+          </div>
+        </li>
+
+      {{ end }}
+      {{ if not .Site.Params.disableThemeSwitcher }}
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      {{ end }}
+    </ul>
+  </nav>
+</div>
