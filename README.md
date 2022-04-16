@@ -1,12 +1,12 @@
-blog-with-hugoo
+blog-with-hugo
 ==============
 
 My personal blog created by hugo.
 
-Theme Edited from hugo-uno theme.
+Theme Edited from Anatole theme.
 
 
-hugo page: [http://gohugo.io/](http://gohugo.io/ "HUGO主页")
-hugo-uno github:[https://github.com/daleanthony/Uno](https://github.com/daleanthony/Uno "hugo-uno github")
+Hugo Page: [http://gohugo.io/](http://gohugo.io/ "HUGO主页")
+Anatole Theme:[https://github.com/lxndrblz/anatole](https://github.com/lxndrblz/anatole)
 
-Here is my Blog: [http://blog.gaojiasheng.com](http://blog.gaojiasheng.com "升升的notabooka")
+My Blog: [http://blog.gavingao.cn](http://blog.gavingao.cn "升升的notabooka")
