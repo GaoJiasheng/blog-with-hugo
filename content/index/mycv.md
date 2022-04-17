@@ -1,10 +1,11 @@
 +++
 Categories = ["个人简介"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = []
 date = "2015-08-29T12:59:16+08:00"
 menu = "main"
 title = "关于我"
+aliases = ["/mycv"]
 +++
 
 ![alt text](/img/shengge.jpg "头像")

@@ -1,11 +1,65 @@
-baseurl = "http://blog.gaojiasheng.com/"
+#baseurl = "http://blog.gavingao.cn/"
+baseurl = "localhost:1313"
 languageCode = "utf-8"
 theme = "anatole"
+summaryLength = 1
+
 
 [params]
-title = "升升的NotaBooka"
+title = "升升的笔记本"
 author = "Gavin Gao"
-description = "上下而求索"
-logo = "/img/naruto.jpg"
-cover = "/img/purse.jpg"
-cv = "/mycv"
+description = "路漫漫其修远兮，吾将上下而求索"
+contentratio = 0.75
+redirectUrl = "http://blog.gavingao.cn"
+toc=true
+
+profilePicture = "/img/keep.jpg"
+copyright = "Gavin Gao {{ YEAR }}"
+
+[permalinks]
+'/' = '/post/'
+
+# readmore
+readMore = true
+
+# 日期格式
+singleDateFormat = "Mon, Jan 2, 2006"
+indexDateFormat = "Mon, Jan 2, 2006"
+listDateFormat = "Jan 2"
+
+# 代码高量
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[[params.socialIcons]]
+icon = "fa-brands fa-github"
+title = "Github"
+url = "https://github.com/GaoJiasheng"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:gaojiasheng.him@foxmail.com"
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+  name = "时间线"
+  weight = 300
+  identifier = "posts"
+  url = "/post/"
+
+
+
+
+# [[menu.main]]
+# name = "关于我"
+# weight = 300
+# identifier = "about"
+# url = "/mycv/"

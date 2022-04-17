@@ -3,8 +3,11 @@ all: build
 run:
 	hugo server --buildDrafts --port=1313 --bind=0.0.0.0
 
-build:
+clean:
 	rm -rf ./public/*
+
+build:
+	make clean
 	hugo -d ./public/ --buildDrafts
 
 install:
