@@ -3,7 +3,7 @@ date = "2016-05-12T22:23:00+08:00"
 draft = false
 toc = true
 title = "Golang的Interface——更强大的面向对象"
-Categories = ["Golang心得"]
+Categories = ["技术"]
 description = "Go语言中，是没有类这个概念的。但实际上，抽象却是无处不在的。"
 menu = "develop"
 +++

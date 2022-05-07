@@ -11,7 +11,7 @@ build:
 	hugo -d ./public/ --buildDrafts
 
 install:
-	rm -rf ../blog-public/*
+	#rm -rf ../blog-public/*
 	cp -rf ./public/* ../blog-public/
 	cp ./scripts/blog-online-Makefile ../blog-public/Makefile
-	cd ../blog-public/ && git add . && git commit -m "modify" && git push origin master
+	cd ../blog-public/ && make update

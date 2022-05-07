@@ -2,7 +2,7 @@
 date = "2015-09-28T16:30:30+08:00"
 draft = false
 title = "开源项目agent-updater源码阅读"
-Categories = ["他山之石"]
+Categories = ["技术"]
 description = "开源工具Agent-Updater主要用来批量更新所有机器上的Agent。分为Meta和Up..."
 menu = "other-mountain"
 +++

@@ -2,7 +2,7 @@
 date = "2016-03-28T14:56:30+08:00"
 draft = false
 title = "Go的异常处理（附最佳实践）"
-Categories = ["Golang心得"]
+Categories = ["技术"]
 description = "在程序执行的时候，很可能会遇到各种各样的问题，可能是内部的..."
 menu = "golang"
 +++

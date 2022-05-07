@@ -2,7 +2,7 @@
 date = "2015-11-27T21:30:30+08:00"
 draft = false
 title = "python的迭代器与生成器"
-Categories = ["Python大法"]
+Categories = ["技术"]
 description = "网上介绍迭代器的文章，都用fibonacci数列举例子，我们也用这个举例子吧。"
 menu = "python"
 +++

@@ -1,12 +1,14 @@
-#baseurl = "http://blog.gavingao.cn/"
+# 分类：技术、国学、随笔、管理
+
 baseurl = "https://blog.gavingao.cn"
 languageCode = "utf-8"
 theme = "anatole"
 summaryLength = 1
-title = "升升的笔记本"
+title = "升升说"
 
 
 [params]
+title = "升升说"
 author = "Gavin Gao"
 description = "路漫漫其修远兮，吾将上下而求索"
 contentratio = 0.75
@@ -46,6 +48,11 @@ icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:gaojiasheng.him@foxmail.com"
 
+[params.utterances]
+repo = "gaojiasheng/blog-with-hugo"
+issueTerm = "title"
+theme= "preferred-color-scheme"
+
 [menu]
 
 [[menu.main]]
@@ -59,12 +66,3 @@ url = "/"
   weight = 300
   identifier = "posts"
   url = "/post/"
-
-
-
-
-# [[menu.main]]
-# name = "关于我"
-# weight = 300
-# identifier = "about"
-# url = "/mycv/"
