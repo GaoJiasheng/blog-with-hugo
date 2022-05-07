@@ -11,7 +11,7 @@ build:
 	hugo -d ./public/ --buildDrafts
 
 install:
-	rm -rf ../blog-online/*
-	cp -rf ./public/* ../blog-online/
-	cp ./scripts/blog-online-Makefile ../blog-online/Makefile
-	cd ../blog-online/ && git add . && git commit -m "modify" && git push origin coding-pages
+	rm -rf ../blog-public/*
+	cp -rf ./public/* ../blog-public/
+	cp ./scripts/blog-online-Makefile ../blog-public/Makefile
+	cd ../blog-public/ && git add . && git commit -m "modify" && git push origin master

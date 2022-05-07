@@ -1,20 +1,25 @@
 #baseurl = "http://blog.gavingao.cn/"
-baseurl = "localhost:1313"
+baseurl = "https://blog.gavingao.cn"
 languageCode = "utf-8"
 theme = "anatole"
 summaryLength = 1
+title = "升升的笔记本"
 
 
 [params]
-title = "升升的笔记本"
 author = "Gavin Gao"
 description = "路漫漫其修远兮，吾将上下而求索"
 contentratio = 0.75
-redirectUrl = "http://blog.gavingao.cn"
+redirectUrl = "https://blog.gavingao.cn"
+favicon = "favicons/"
 toc=true
 
 profilePicture = "/img/keep.jpg"
 copyright = "Gavin Gao {{ YEAR }}"
+
+singleDateFormat = "Jan 2, 2006"
+indexDateFormat = "Jan 2, 2006"
+listDateFormat = "Jan 2"
 
 [permalinks]
 '/' = '/post/'
