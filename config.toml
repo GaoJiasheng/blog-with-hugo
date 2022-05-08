@@ -6,7 +6,6 @@ theme = "anatole"
 summaryLength = 1
 title = "升升说"
 
-
 [params]
 title = "升升说"
 author = "Gavin Gao"
@@ -15,7 +14,6 @@ contentratio = 0.75
 redirectUrl = "https://blog.gavingao.cn"
 favicon = "favicons/"
 toc=true
-
 profilePicture = "/img/keep.jpg"
 copyright = "Gavin Gao {{ YEAR }}"
 
@@ -23,20 +21,15 @@ singleDateFormat = "Jan 2, 2006"
 indexDateFormat = "Jan 2, 2006"
 listDateFormat = "Jan 2"
 
-[permalinks]
-'/' = '/post/'
+# related posts
+relatedPosts = true
+numberOfRelatedPosts = 3
 
 # readmore
 readMore = true
 
-# 日期格式
-singleDateFormat = "Mon, Jan 2, 2006"
-indexDateFormat = "Mon, Jan 2, 2006"
-listDateFormat = "Jan 2"
-
-# 代码高量
-pygmentsCodeFences = true
-pygmentsUseClasses = true
+[permalinks]
+'/' = '/post/'
 
 [[params.socialIcons]]
 icon = "fa-brands fa-github"
@@ -53,6 +46,7 @@ repo = "gaojiasheng/blog-with-hugo"
 issueTerm = "title"
 theme= "preferred-color-scheme"
 
+
 [menu]
 
 [[menu.main]]
@@ -62,7 +56,16 @@ weight = 100
 url = "/"
 
 [[menu.main]]
-  name = "时间线"
-  weight = 300
+name = "时间线"
+weight = 300
   identifier = "posts"
   url = "/post/"
+
+[markup]
+  [markup.highlight]
+      lineNos = true
+      lineNumbersInTable = false
+      noClasses = true
+      noHl = false
+      style = 'monokai'
+      tabWidth = 8
