@@ -10,7 +10,8 @@ title = "升升说"
 title = "升升说"
 author = "Gavin Gao"
 description = "路漫漫其修远兮，吾将上下而求索"
-contentratio = 0.75
+contentratio = 0.70
+displayMode = "dark"
 redirectUrl = "https://blog.gavingao.cn"
 favicon = "favicons/"
 toc=true
@@ -26,7 +27,7 @@ relatedPosts = true
 numberOfRelatedPosts = 3
 
 # readmore
-readMore = true
+readMore = false
 
 [permalinks]
 '/' = '/post/'
@@ -41,10 +42,16 @@ icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:gaojiasheng.him@foxmail.com"
 
+
+[[params.socialIcons]]
+icon = "fa-brands fa-twitter"
+title = "twitter"
+url = "https://twitter.com/gaojiashenghim"
+
 [params.utterances]
 repo = "gaojiasheng/blog-with-hugo"
 issueTerm = "title"
-theme= "preferred-color-scheme"
+theme= "github-light"
 
 
 [menu]
