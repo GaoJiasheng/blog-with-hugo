@@ -11,7 +11,6 @@ title = "升升说"
 author = "Gavin Gao"
 description = "路漫漫其修远兮，吾将上下而求索"
 contentratio = 0.70
-displayMode = "dark"
 redirectUrl = "https://blog.gavingao.cn"
 favicon = "favicons/"
 toc=true
